@@ -45,7 +45,11 @@ export class AppComponent {
         this.messages = null;
         this.clearValues();
       } else {
+<<<<<<< HEAD
+        this.messages = 'Errors have been encountered';
+=======
         this.messages = 'Errors have been encountered and therefore cant';
+>>>>>>> fa1d868b47de6ec6135c9a6f2605870be38bdab1
         return false;
       }
   }
@@ -53,6 +57,17 @@ export class AppComponent {
       this.printing = true;
       console.log('Showing stored students');
     }
+<<<<<<< HEAD
+
+    clearValues(): void{
+      this.studNo =null;
+      this.studFname =null;
+      this.studLname =null;
+      this.studProg =null;
+      this.studYr =null;
+    }
+}
+=======
 
     clearValues(): void{
       this.studNo =null;
@@ -64,3 +79,4 @@ export class AppComponent {
 }
 
 
+>>>>>>> fa1d868b47de6ec6135c9a6f2605870be38bdab1
