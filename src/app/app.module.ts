@@ -1,15 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
+import { DataEntryComponent } from './data.component';
+import { AddEntryComponent } from './AddStud.Component';
+import { PrintEntryComponent } from './ListStud.Component';
+import { DisplayComponent } from './Display.Component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataEntryComponent,
+    AddEntryComponent,
+    PrintEntryComponent,
+    DisplayComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
